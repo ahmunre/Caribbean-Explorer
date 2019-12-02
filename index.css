@@ -1,0 +1,91 @@
+
+      *{
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans serif;
+        background-color: beige;
+      
+      }
+      section {
+        width: 80%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+
+       header {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        
+      }
+      .FirstSection article {
+        padding-top: 20px;
+        clear: both;
+        padding-bottom: 45px;
+        overflow: auto;
+        width: 80%;
+        margin: auto; 
+      
+      }
+
+      .FirstSection article:nth-child(even) {
+        background-color: red;
+      }
+
+      .FirstSection article:nth-child(odd) {
+        background-color: purple;
+      }
+
+       img  {
+         float: left;
+         padding-right: 100px;
+         vertical-align: top;
+         margin-right: 13px;
+         margin-bottom: 10px
+    
+         
+      }
+
+      summary {
+      display: inline;
+     /* width:60%;
+      float: left;
+      }*/
+
+      fieldset {
+        
+        clear: both;
+        overflow: auto;
+        width: 80%;
+        margin: auto; 
+      }
+      .btnspan {
+        float: right;
+        clear: left;
+        padding-right: 30px;
+      }
+
+      .PreButton {
+        float: left;
+        clear: right;
+        padding-right: 30px;
+      }
+
+      button {
+        padding: 6px;
+        border-radius: 5%;
+        
+        margin-right: 30px;
+      }
+
+      .SecondSection {
+        display: none;
+      }
+     
