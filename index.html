@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
 
   </head> 
   <body>
-
+    
     
     <section id="first_section" class="FirstSection">
       <main id="main_pageone" class="MainPageOne">
-        <form>
+        <h1>Caribbean Explorer</h1>
+        <form id="islands_form">
         <fieldset>
-          <legend>Island Selections</legend>
+          
           <p>
             <select id="island_selection" class="IslandSelection" name="options" onclick="">
               <option value="island_1">The Bahamas</option>
@@ -105,7 +107,7 @@
           <button type="submit" id="antg_btn" class="btnspan">More</button>
         </article>
   
-        <article id="island_8" class="Island8">btnspan
+        <article id="island_8" class="Island8">
           <header>St.Kitts and Nevis</header>
           <img src="https://res.cloudinary.com/askanison/image/upload/c_scale,w_200/v1572980550/1280px-Flag_of_Saint_Kitts_and_Nevis.svg_pixwbc.png"></img>
           <summary>
@@ -253,29 +255,10 @@
     </div> 
     </section>
 
-    
-      <script>
-        window.onclick = function
-       function selectedIsland() {
-      var list = document.getElementById("island_selection").value;
-      console.log(list)
-       };
-
-      const islandlist = document.getElementById("island_selection");
-
-      islandlist.addEventListener("change", event => {
-        window.location.hash = event.target.value;
-      })
-      
-    
-      
-     </script>
-
-    
-    <script type="text/javascript"></script>
+  
+    <script type="text/javascript" src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     
-    </script>
    
-  </body>`
+  </body>
 </html>

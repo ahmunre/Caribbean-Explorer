@@ -7,8 +7,12 @@
         display: flex;
         flex-wrap: wrap;
         font-family: 'Roboto', sans serif;
-        background-color: beige;
+        background-image: url(../../Caymans.jpg);
       
+      }
+
+      h1 {
+        text-align: center;
       }
       section {
         width: 80%;
@@ -36,11 +40,11 @@
       }
 
       .FirstSection article:nth-child(even) {
-        background-color: red;
+        background-color: rgb(201, 222, 230);
       }
 
       .FirstSection article:nth-child(odd) {
-        background-color: purple;
+        background-color: rgb(245, 239, 239);
       }
 
        img  {
@@ -48,23 +52,25 @@
          padding-right: 100px;
          vertical-align: top;
          margin-right: 13px;
-         margin-bottom: 10px
+         margin-bottom: 10px;
+         padding-left: 10px;
     
          
       }
 
       summary {
-      display: inline;
-     /* width:60%;
-      float: left;
-      }*/
+        display: inline-flex;
+        width: 60%;
+              
+        }
 
       fieldset {
-        
+        background-color: rgb(143, 131, 131);
         clear: both;
         overflow: auto;
         width: 80%;
-        margin: auto; 
+        margin: auto;
+        margin-bottom: 10px;
       }
       .btnspan {
         float: right;
@@ -81,7 +87,6 @@
       button {
         padding: 6px;
         border-radius: 5%;
-        
         margin-right: 30px;
       }
 
